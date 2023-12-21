@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# Build directories
+build/
+dist/
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# npm package-lock.json
+package-lock.json
+
+# macOS specific files
+.DS_Store
+
+# Compiled binary addons
+node_modules/**/*.node
