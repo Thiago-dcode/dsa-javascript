@@ -1,3 +1,6 @@
-import { addUpTo } from "./app/add.js";
+import { same } from "./app/patterns/frequency-counter.js";
 
-console.log(addUpTo(6))
+const arr1 = [1, 4, 4];
+const arr2 = [16, 1, 16];
+
+console.log(same(arr1, arr2));
